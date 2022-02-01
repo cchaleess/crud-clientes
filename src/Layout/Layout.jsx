@@ -22,12 +22,9 @@ const urlActual = location.pathname;
                 </nav>
             </div>
 
-            <div className="md:w-3/4 p-10 ">
+            <div className="md:w-3/4 p-10 overflow-scroll">
                    <Outlet />
-
             </div>
-        <h1>Desde Layout</h1>
-
         </div>
      );
 }
